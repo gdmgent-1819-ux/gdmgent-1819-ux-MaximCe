@@ -4,6 +4,16 @@ html {
 
 body {
   font-family: var(--t-body);
+  font-size: var(--t-primary-medium);
+  color: var(--t-primary);
   height: inherit;
   margin: 0;
+}
+
+h1 {
+  font-size: var(--t-primary-extra-large);
+}
+
+h2 {
+  font-size: var(--t-primary-medium);
 }

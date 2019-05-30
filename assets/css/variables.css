@@ -1,9 +1,12 @@
-
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --c-primary: hsla(42, 60%, 61%, 1);
+  --c-primary-transp: rgba(215, 179, 95, 0.7);
+
+  --c-secondary: hsl(0, 0%, 100%);
+  --c-secondary-transp: hsla(0, 0%, 100%, 0.7);
 
   /**
    * Layout
@@ -13,14 +16,15 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
+  --t-primary: "mrs-eaves-xl-serif-narrow", serif;
+  --t-primary-extra-large: 36px;
+  --t-primary-large: 30px;
+  --t-primary-medium: 24px;
+
+  --t-secondary: "mrs-eaves-xl-serif-narrow", serif;
 
   --t-headline: var(--t-primary);
   --t-subtitle: var(--t-primary);
   --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+  --t-code: var(--t-secondary);
 }
-
-

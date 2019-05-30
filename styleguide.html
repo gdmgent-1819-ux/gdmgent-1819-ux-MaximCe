@@ -1,21 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Styleguide</title>
+    <link rel="stylesheet" href="https://use.typekit.net/xzw6can.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleguide.css">
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container">
+        <h1 class="sg-title">Digital styleguide</h1>
+
+
+        <h2 class="sg-subtitle">Kleuren</h2>
+        <div id="colorbox-1">
+            <p>hsla(42, 60%, 61%, 1)</p>
+        </div>
+        <div id="colorbox-2">
+            <p>hsla(0, 0%, 100%,1)</p>
+        </div>
+
+
+        <h2 class="sg-subtitle">Typografie</h2>
+        <div class="typo">
+            mrs-eaves-xl-serif-narrow
+            <h1>large text</h1>
+            <h2>normal text</h2>
+        </div>
+        <h2 class="sg-subtitle">Knopppen</h2>
+        <div class="buttons">
+            <button class="button-primary">primary</button><br>
+            <button class="button-secondary">secondary</button>
+            </button>
+        </div>
+
+
+        <h2 class="sg-subtitle">Formulier</h2>
+
+        <form>
+            <label for="naam">Achternaam</label>
+            <input class="input input-text" type="text" name="naam" id="form-name" placeholder="Achternaam" required>
+            <label for="naam">Voornaam</label>
+            <input class="input input-text" type="text" name="voornaam" id="form-firstName" placeholder="Voornaam"
+                required>
+            <label for="telefoonnr">Telefoonnummer</label>
+            <input class="input" type="tel" name="telefoonnr" value="+32" required>
+            <label for="telefoonnr">E-mailadres</label>
+            <input class="input" type="email" name="telefoonnr" placeholder="emailadres@mail.be" required>
+
+            <label for="lunchDiner">Lunch / Diner</label>
+            <select class="input input-dropdown" name="maaltijd" required>
+                <option value="lunch">Lunch</option>
+                <option value="diner">Diner</option>
+            </select>
+            <label for="aantalPersonen">Aantal personen (Max. 12)</label>
+            <input class="input input-number" type="number" name="aantalPersonen" id="aantalPersonen" max="12"
+                placeholder="# personen" required>
+            <label for="datum">Datum</label>
+            <input class="input" type="date" name="datum" id="form-date">
+            <label for="uur">Kies een uur</label>
+            <div>
+                <select class="input input-dropdown" name="uur" required>
+                    <option value="12">11</option>
+                    <option value="12">12</option>
+                    <option value="12">13</option>
+                    <option value="12">18</option>
+                    <option value="12">19</option>
+                    <option value="12">20</option>
+                </select> :
+                <select class="input input-dropdown" name="minuten" required>
+                    <option value="12">00</option>
+                    <option value="12">15</option>
+                    <option value="12">30</option>
+                    <option value="12">45</option>
+                </select>
+            </div>
+            <label for="vervoer">Wenst u vervoer?</label>
+            <select class="input input-dropdown" name="vervoer" required>
+                <option value="ja">Ja</option>
+                <option value="nee">Nee</option>
+            </select>
+            <label for="extra">Hebt u nog extra vragen/ wensen?</label>
+            <textarea class="input" name="extra" id="input-text" cols="30" rows="10" placeholder="..."></textarea>
+
+            <button class="button-primary form-button" type="submit"> Verzenden</button>
+        </form>
+        <h2 class="sg-subtitle">image Carousel</h2>
+    </div>
+    <div class="carousel-container">
+        <p>Fotogalerij</p>
+        <div class="carousel-buttons">
+            <button class="button-round">
+                <div class="arrow-left"></div>
+            </button>
+            <button class="button-round">
+                <div class="arrow-right"></div>
+            </button>
+        </div>
+        <button class="button-primary">Bekijk hier onze galerij</button>
+    </div>
 </body>
+
 </html>

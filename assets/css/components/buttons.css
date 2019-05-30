@@ -1,0 +1,33 @@
+.button-primary {
+    padding: 16px 75px;
+    border-radius: 5rem;
+    border: none;
+
+    background-color: var(--c-primary);
+
+    font-size: var(--t-primary-medium);
+    color: var(--c-secondary);
+}
+
+.button-secondary {
+    padding: 16px 75px;
+    border-radius: 5rem;
+    border: 4px solid var(--c-primary);
+
+    background-color: var(--c-secondary);
+
+    font-size: var(--t-primary-medium);
+    color: var(--c-primary);
+}
+
+.button-round {
+    border-radius: 5rem;
+    width: 75px;
+    height: 75px;
+    border: none;
+
+    background-color: var(--c-primary);
+
+    font-size: var(--t-primary-medium);
+    color: var(--c-secondary);
+}
