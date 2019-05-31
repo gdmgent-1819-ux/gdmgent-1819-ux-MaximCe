@@ -4,4 +4,4 @@
 - Familienaam: Celis
 - Studentnummer: 107083
 - Klasgroep: 1MMPb
-- UX prototype link: https://xd.adobe.com/spec/18057d0a-ee2f-43d4-4128-ff009018adae-6e34/
+- UX prototype link: https://xd.adobe.com/view/ba639ae8-86ce-48ec-7254-1d2b05002128-cc52/
