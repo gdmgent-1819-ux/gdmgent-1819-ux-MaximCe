@@ -76,7 +76,7 @@ nav div.dropdown-divider {
     align-items: center;
     flex-direction: column;
 
-    background-image: url("assets/Images/backgrounds/background.jpg");
+    background-image: url("/assets/Images/backgrounds/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
