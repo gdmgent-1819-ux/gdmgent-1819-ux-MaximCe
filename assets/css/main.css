@@ -92,7 +92,7 @@ nav div.dropdown-divider {
 }
 
 #landing-photo {
-    background-image: url("assets/Images/logo/logo1@2x.png");
+    background-image: url("../Images/logo/logo1@2x.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -145,15 +145,15 @@ nav div.dropdown-divider {
 }
 
 #photo1 {
-    background-image: url("assets/Images/backgrounds/background2.jpg");
+    background-image: url("../Images/backgrounds/background2.jpg");
 }
 
 #photo2 {
-    background-image: url("assets/Images/backgrounds/background3.jpg");
+    background-image: url("../Images/backgrounds/background3.jpg");
 }
 
 #photo3 {
-    background-image: url("assets/Images/van/Van.jpg");
+    background-image: url("../Images/van/Van.jpg");
     background-position: right;
 
 }
